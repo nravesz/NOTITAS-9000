@@ -4,3 +4,4 @@ def listar_notas(diccionario):
         print("[{}]".format(etiqueta))
         for casillero in texto:
             print("-{}".format(casillero))
+        print("\n")
