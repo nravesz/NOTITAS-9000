@@ -8,8 +8,9 @@ def buscar_nota(diccionario):
             casillero_minus = casillero.lower()
             if clave_minus in casillero_minus:
                 resultados[etiqueta] = resultados.get(etiqueta,[]) + [casillero]
-    if resultados == {}:
+    if clave == "":
+        print("Ha ingresado un campo vacío")
+    elif resultados == {}:
         print("No se han encontrado coincidencias")
     else:
         coincidencias = listar_notas.listar_notas(resultados)
-#Si el usuario pone un campo vacío le muestra todo, hay que arreglarlo D:
