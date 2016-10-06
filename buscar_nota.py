@@ -12,3 +12,4 @@ def buscar_nota(diccionario):
         print("No se han encontrado coincidencias")
     else:
         coincidencias = listar_notas.listar_notas(resultados)
+#Si el usuario pone un campo vacío le muestra todo, hay que arreglarlo D:
